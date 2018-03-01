@@ -1,0 +1,19 @@
+{
+  "name": "wail",
+  "version": "1.0.0",
+  "description": "zero dependency notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browser",
+    "notifications"
+  ],
+  "author": "Joakim Mohn",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
