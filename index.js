@@ -38,7 +38,7 @@ function show(node) {
     fadeIn();
 }
 
-function wail(content, {position = 'top', type = 'info', duration = 4000, clickable = false, style}) {
+function wail(content, {position = 'top', type = 'info', duration = 4000, clickable = false, style} = {}) {
     const containerId = 
         '#wail-notification-container',
         textContainer = document.createElement("div");
@@ -104,7 +104,7 @@ function wail(content, {position = 'top', type = 'info', duration = 4000, clicka
     textContainer.innerHTML = content;
 
     notificationContainer.appendChild(textContainer);
-    
+
     show(textContainer);
 
     if(duration) {
